@@ -640,8 +640,8 @@ align-items: center;
 
 @media (max-width: 768px) {
   .title{
-      font-size: 80px;
-
+      font-size: 60px;
+      text-align: center;
   }
   .header__para{
       font-size: 20px;
@@ -662,9 +662,9 @@ align-items: center;
 
   }
 
-  .project__description{
-     left: 20px;
   
+  .social__list{
+    margin-right: 20px;
   }
 
 
@@ -678,6 +678,7 @@ align-items: center;
   }
   .header__para{
       font-size: 18px;
+      margin-right: 45px;
   }
   .nav__link:first-child {
       display: none;
@@ -685,16 +686,16 @@ align-items: center;
   .project__description--para{
       display: none;
   }
-  .project__description{
-      left: 0;
-      padding: 0;
-      width: 100%;
-      text-align: center;
-  }
   .project__description--sub-title{
       margin-bottom: 8px;
   }
   .modal__half{
       padding: 30px;
+  }
+  .social__list{
+    margin-right: 0px;
+  }
+  .mail__btn{
+    visibility: hidden;
   }
 }

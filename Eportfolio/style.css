@@ -661,10 +661,16 @@ align-items: center;
       
 
   }
+  .project__description{
+    left: 20px;
+  }
 
   
   .social__list{
     margin-right: 20px;
+  }
+  .scroll__icon{
+    margin-left: 26px;
   }
 
 
@@ -689,6 +695,12 @@ align-items: center;
   .project__description--sub-title{
       margin-bottom: 8px;
   }
+  .project__description{
+    left: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
   .modal__half{
       padding: 30px;
   }
@@ -697,5 +709,8 @@ align-items: center;
   }
   .mail__btn{
     visibility: hidden;
+  }
+  .scroll__icon{
+    margin-left: 48px;
   }
 }
